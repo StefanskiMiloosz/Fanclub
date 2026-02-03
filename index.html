@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Fan Club Queen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Bohemian Rhapsody Contact</h2>
+    
+    <form action="#">
+        <label for="fname">Imię i nazwisko</label>
+        <input type="text" id="fname" name="firstname" placeholder="Freddie Mercury..." required>
+
+        <label for="email">Twój adres e-mail</label>
+        <input type="email" id="email" name="email" placeholder="twoj-mail@fan.pl" required>
+
+        <label for="category">Czego dotyczy wiadomość?</label>
+        <select id="category" name="category">
+            <option value="vinyl">Pytanie o winyle</option>
+            <option value="concerts">Archiwalne koncerty</option>
+            <option value="membership">Członkostwo w fanklubie</option>
+            <option value="other">Inna sprawa</option>
+        </select>
+
+        <label for="subject">Treść wiadomości</label>
+        <textarea id="subject" name="subject" placeholder="Napisz do nas"></textarea>
+
+        <input type="submit" value="Wyślij do fanklubu">
+    </form>
+</div>
+
+</body>
+</html>
