@@ -69,7 +69,3 @@ input[type="submit"] {
     font-size: 16px;
     transition: opacity 0.2s;
 }
-
-input[type="submit"]:hover {
-    opacity: 0.8; 
-}
